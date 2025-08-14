@@ -20,5 +20,5 @@ phases:
 artifacts:
     files:
       - '**/*'
-    base-directory: dist/your-angular-app-name
+    base-directory: dist/my-angular-project
     
