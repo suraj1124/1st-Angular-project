@@ -17,8 +17,8 @@ phases:
   post_build:
     commands:
       - echo Post-build phase started
-artifacts:    
-    base-directory: dist/your-angular-project
+artifacts:
     files:
       - '**/*'
+    base-directory: dist/your-angular-app-name
     
