@@ -19,8 +19,6 @@ phases:
       - echo Post-build phase started
 artifacts:
     files:
-      - 'dist/my-angular-project/**/*'
-      - appspec.yml
-      - 'scripts/**/*'
+      - '**/*'
 
     
