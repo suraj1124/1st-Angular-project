@@ -1,4 +1,4 @@
-!#!/bin/bash   
-# This script starts the Angular application server
-mkdir -p suraj_test
+!#!/bin/bash
+sudo mkdir -p /tmp/suraj_test
+cd ..
 sudo service nginx restart

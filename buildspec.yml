@@ -14,10 +14,13 @@ phases:
     commands:
       - echo Build phase started
       - ng build -c production
+      - echo "Setting script permissions..."
+      - chmod +x scripts/*.sh
   post_build:
     commands:
       - echo Post-build phase started
 
+   
 artifacts:
     files:
       - 'dist/my-angular-project/**/*'  
