@@ -28,7 +28,7 @@ hooks:
     - location: scripts/create_directory.sh
       timeout: 300
       runas: root
-    - location: scripts/install_Nginx.sh
+    - location: scripts/Install_Nginx.sh
       timeout: 300
       runas: root
   ApplicationStart:
